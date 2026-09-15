@@ -1,1 +1,45 @@
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #10131a;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+p {
+  color: #9da3b0;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-size: 17px;
+  background: #5865f2;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.96);
+  }
